@@ -188,14 +188,14 @@ h6 {
   float: left;
 }
 
-#intro .intro-info h2 {
+#intro .intro-info h3 {
   color: #fff;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
 }
 
-#intro .intro-info h2 span {
+#intro .intro-info h3 span {
   color: #fff;
   margin-bottom: 420px;
   font-size: 24px;
@@ -456,7 +456,7 @@ h6 {
 /* Sections Header
 --------------------------------*/
 
-.section-header h3 {
+.section-header h2,h3 {
   font-size: 36px;
   color: #283d50;
   text-align: center;
