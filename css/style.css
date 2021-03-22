@@ -141,9 +141,10 @@ h6 {
 }
 
 #header .logo h1 {
-  font-size: 36px;
+  font-size: 16px;
   margin: 0;
   padding: 0;
+  text-align: center;
   line-height: 1;
   font-weight: 400;
   letter-spacing: 3px;
@@ -167,13 +168,13 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Intro Section
+# Inicio Section
 --------------------------------------------------------------*/
 
 #intro {
   width: 100%;
   position: relative;
-  background: url("../img/intro-bg.png") center bottom no-repeat;
+  background: url("../img/intro-bg.webp") center bottom no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
 }
@@ -480,43 +481,43 @@ h6 {
   background: #ecf5ff;
 }
 
-/* About Us Section
+/* Quien soy Section
 --------------------------------*/
 
-#about {
+#quien_soy {
   background: #fff;
   padding: 60px 0;
 }
 
-#about .about-container .background {
+#quien_soy .quien_soy-container .background {
   margin: 20px 0;
 }
 
-#about .about-container .content {
+#quien_soy .quien_soy-container .content {
   background: #fff;
 }
 
-#about .about-container .title {
+#quien_soy .quien_soy-container .title {
   color: #333;
   font-weight: 700;
   font-size: 32px;
 }
 
-#about .about-container p {
+#quien_soy .quien_soy-container p {
   font-size: 16px;
 }
 
-#about .about-container p:last-child {
+#quien_soy .quien_soy-container p:last-child {
   margin-bottom: 0;
 }
 
-#about .about-container .icon-box {
+#quien_soy .quien_soy-container .icon-box {
   background: #fff;
   background-size: cover;
   padding: 0 0 30px 0;
 }
 
-#about .about-container .icon-box .icon {
+#quien_soy .quien_soy-container .icon-box .icon {
   float: left;
   background: #fff;
   width: 64px;
@@ -544,41 +545,41 @@ h6 {
   transition: all 0.3s ease-in-out;
 }
 
-#about .about-container .icon-box .icon i {
+#quien_soy .quien_soy-container .icon-box .icon i {
   color: #007bff;
   font-size: 24px;
 }
 
-#about .about-container .icon-box:hover .icon {
+#quien_soy .quien_soy-container .icon-box:hover .icon {
   background: #007bff;
 }
 
-#about .about-container .icon-box:hover .icon i {
+#quien_soy .quien_soy-container .icon-box:hover .icon i {
   color: #fff;
 }
 
-#about .about-container .icon-box .title {
+#quien_soy .quien_soy-container .icon-box .title {
   margin-left: 80px;
   font-weight: 600;
   margin-bottom: 5px;
   font-size: 18px;
 }
 
-#about .about-container .icon-box .title a {
+#quien_soy .quien_soy-container .icon-box .title a {
   color: #283d50;
 }
 
-#about .about-container .icon-box .description {
+#quien_soy .quien_soy-container .icon-box .description {
   margin-left: 80px;
   line-height: 24px;
   font-size: 18px;
 }
 
-#about .about-extra {
+#quien_soy .quien_soy-extra {
   padding-top: 60px;
 }
 
-#about .about-extra h4 {
+#quien_soy .quien_soy-extra h4 {
   font-weight: 600;
   font-size: 24px;
 }
@@ -586,12 +587,12 @@ h6 {
 /* Services Section
 --------------------------------*/
 
-#services {
+#formacion {
   padding: 60px 0 40px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
-#services .box {
+#formacion .box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -602,56 +603,56 @@ h6 {
   transition: all 0.3s ease-in-out;
 }
 
-#services .box:hover {
+#formacion .box:hover {
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
 }
 
-#services .icon {
+#formacion .icon {
   position: absolute;
   left: -10px;
   top: calc(50% - 32px);
 }
 
-#services .icon i {
+#formacion .icon i {
   font-size: 64px;
   line-height: 1;
   transition: 0.5s;
 }
 
-#services .title {
+#formacion .title {
   margin-left: 40px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-#services .title a {
+#formacion .title a {
   color: #111;
 }
 
-#services .box:hover .title a {
+#formacion .box:hover .title a {
   color: #007bff;
 }
 
-#services .description {
+#formacion .description {
   font-size: 14px;
   margin-left: 40px;
   line-height: 24px;
   margin-bottom: 0;
 }
 
-#why-us {
+#know {
   padding: 60px 0;
   background: #004a99;
 }
 
-#why-us .section-header h3,
-#why-us .section-header p {
+#know .section-header h3,
+#know .section-header p {
   color: #fff;
 }
 
-#why-us .card {
+#know .card {
   background: #00458f;
   border-color: #00458f;
   border-radius: 10px;
@@ -663,28 +664,28 @@ h6 {
   height: 100%;
 }
 
-#why-us .card:hover {
+#know .card:hover {
   background: #003b7a;
   border-color: #003b7a;
 }
 
-#why-us .card i {
+#know .card i {
   font-size: 48px;
   padding-top: 15px;
   color: #bfddfe;
 }
 
-#why-us .card h5 {
+#know .card h5 {
   font-size: 22px;
   font-weight: 600;
 }
 
-#why-us .card p {
+#know .card p {
   font-size: 15px;
   color: #d8eafe;
 }
 
-#why-us .card .readmore {
+#know .card .readmore {
   color: #fff;
   font-weight: 600;
   display: inline-block;
@@ -692,15 +693,15 @@ h6 {
   border-bottom: #00458f solid 2px;
 }
 
-#why-us .card .readmore:hover {
+#know .card .readmore:hover {
   border-bottom: #fff solid 2px;
 }
 
-#why-us .counters {
+#know .counters {
   padding-top: 40px;
 }
 
-#why-us .counters span {
+#know .counters span {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 48px;
@@ -708,7 +709,7 @@ h6 {
   color: #fff;
 }
 
-#why-us .counters p {
+#know .counters p {
   padding: 0;
   margin: 0 0 20px 0;
   font-family: "Montserrat", sans-serif;
@@ -864,7 +865,7 @@ h6 {
   opacity: 1;
 }
 
-/* Testimonials Section
+/* Habilidades Section
 --------------------------------*/
 
 #testimonials {
@@ -920,137 +921,6 @@ h6 {
 
 #testimonials .owl-dot.active {
   background-color: #007bff;
-}
-
-/* Team Section
---------------------------------*/
-
-#team {
-  background: #fff;
-  padding: 60px 0;
-  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-}
-
-#team .member {
-  text-align: center;
-  margin-bottom: 20px;
-  position: relative;
-  border-radius: 50%;
-  overflow: hidden;
-}
-
-#team .member .member-info {
-  opacity: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  transition: 0.2s;
-}
-
-#team .member .member-info-content {
-  margin-top: 50px;
-  transition: margin 0.2s;
-}
-
-#team .member:hover .member-info {
-  background: rgba(0, 62, 128, 0.7);
-  opacity: 1;
-  transition: 0.4s;
-}
-
-#team .member:hover .member-info-content {
-  margin-top: 0;
-  transition: margin 0.4s;
-}
-
-#team .member h4 {
-  font-weight: 700;
-  margin-bottom: 2px;
-  font-size: 18px;
-  color: #fff;
-}
-
-#team .member span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
-  color: #fff;
-}
-
-#team .member .social {
-  margin-top: 15px;
-}
-
-#team .member .social a {
-  transition: none;
-  color: #fff;
-}
-
-#team .member .social a:hover {
-  color: #007bff;
-}
-
-#team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
-}
-
-/* Clients Section
---------------------------------*/
-
-#clients {
-  padding: 60px 0;
-  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-}
-
-#clients .clients-wrap {
-  border-top: 1px solid #d6eaff;
-  border-left: 1px solid #d6eaff;
-  margin-bottom: 30px;
-}
-
-#clients .client-logo {
-  padding: 64px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-right: 1px solid #d6eaff;
-  border-bottom: 1px solid #d6eaff;
-  overflow: hidden;
-  background: #fff;
-  height: 160px;
-}
-
-#clients .client-logo:hover img {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-}
-
-#clients img {
-  transition: all 0.4s ease-in-out;
 }
 
 /* Contact Section
