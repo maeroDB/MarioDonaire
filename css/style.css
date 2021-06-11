@@ -416,6 +416,7 @@ h6 {
   padding-bottom: 60px;
   color: #556877;
   width: 50%;
+  font-style: italic;
 }
 
 /* Section with background
@@ -552,7 +553,9 @@ h6 {
 /* Formacion Section
 --------------------------------*/
 
-
+#formacion {
+  background-color: #fff;
+}
 
 #formacion .box {
   padding: 30px;
@@ -574,6 +577,7 @@ h6 {
   position: absolute;
   left: -10px;
   top: calc(50% - 32px);
+  pointer-events: none
 }
 
 #formacion .icon i {
@@ -743,19 +747,24 @@ h6 {
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a {
   color: #fff;
+  cursor: pointer;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
   color: #007bff;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
+#portfolio .portfolio-item .portfolio-wrap .portfolio-info p  {
   padding: 1vw;
-  margin: 0;
+  margin: 1vw;
   color: #e2effe;
-  font-weight: 500;
-  font-size: 1vw;
+  font-weight: 1vw;
+  font-size: 0.8vw;
 
+}
+
+#portfolio .portfolio-item .portfolio-wrap .portfolio-info a  {
+  color: burlywood;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview,
@@ -904,6 +913,7 @@ h6 {
 
   #formacion .icon {
     padding: 2vw;
+    pointer-events: none
   }
 
   #portfolio .portfolio-item .portfolio-wrap {
@@ -921,11 +931,16 @@ h6 {
 
   #portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
     padding: 1vw;
-    font-size: 3vw;
-    text-align: center;
+    margin: 1vw;
+    color: #e2effe;
+    font-weight: 1vw;
+    padding: 1vw;
+    font-size: 1.5vw;
   }
 
-
+  #portfolio .portfolio-item .portfolio-wrap .portfolio-info a  {
+    color: burlywood;
+  }
 
   #testimonials  .texto {
     font-size: 1vw;
@@ -967,13 +982,13 @@ h6 {
   width: 40vw;
   height: 40vw;
 }
-  #portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
+  #portfolio .portfolio-item .portfolio-wrap .portfolio-info p a {
     padding: 1vw;
-    font-size: 2vw;
+    font-size: 1.5vw;
     text-align: center;
   }
-  #portfolio .portfolio-item .portfolio-wrap .portfolio-info a {
-    font-size: 3vw;
+  #portfolio .portfolio-item .portfolio-wrap .portfolio-info a  {
+    color: burlywood;
   }
 
   
@@ -992,6 +1007,7 @@ h6 {
 
   .section-header p {
     width: 100%;
+    font-style: italic;
   }
 
   #testimonials .testimonial-item {
@@ -1012,6 +1028,8 @@ h6 {
   #quien_soy .texto {
     font-size: 10vw;
   }
+
+
 
 }
 
@@ -1039,5 +1057,19 @@ h6 {
   #testimonials .title {
     font-size: 10vw;
   }
-  
+
+  #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 {
+    padding: 1vw;
+    font-size: 3vw;
+    text-align: center;
+    cursor: pointer;
+  }
+  #portfolio .portfolio-item .portfolio-wrap .portfolio-info p a {
+    padding: 1vw;
+    font-size: 2vw;
+    text-align: center;
+  }
+  #portfolio .portfolio-item .portfolio-wrap .portfolio-info a  {
+  color: burlywood;
+}
 }

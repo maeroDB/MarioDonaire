@@ -92,11 +92,6 @@
     });
   });
 
-  // jQuery counterUp (used in Whu Us section)
-  $('[data-toggle="counter-up"]').counterUp({
-    delay: 10,
-    time: 1000
-  });
 
   // Porfolio isotope and filter
   $(window).on('load', function () {
@@ -114,9 +109,12 @@
   // Testimonials carousel (uses the Owl Carousel library)
   $(".testimonials-carousel").owlCarousel({
     autoplay: true,
+    autoplayTimeout:10000,
     dots: true,
     loop: true,
-    items: 1
+    items: 1,
+    time: 1,
+
   });
 
 })(jQuery);
